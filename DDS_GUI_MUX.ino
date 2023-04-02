@@ -85,7 +85,8 @@ void loop() {
 
 // ESP32 + GUI
 // Format data yang dikirim agar bisa diproses
-//
+// Data that has to be send using serial communication from PC
+//  
 //  MCS#[Frequency_Mode]=[PARAMETER_A];[PARAMETER_B];[PARAMETER_C];
 //  contoh: MCS#1=100;123;999;
 //
