@@ -88,9 +88,10 @@ void loop() {
 // Data that has to be send using serial communication from PC
 //  
 //  MCS#[Frequency_Mode]=[PARAMETER_A];[PARAMETER_B];[PARAMETER_C];
-//  contoh: MCS#1=100;123;999;
+//  EXAMPLE : MCS#1=100;123;999;
 //
-// janga lupa kirim pakai newline \n
+//  Don't forget to send it with newline \n
+// 
 
 void selected_mode_and_frequency() {
   while (Serial.available()) {
